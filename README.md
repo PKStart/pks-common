@@ -13,5 +13,7 @@ Testing locally
 ---------------
 
 ### Code quality checks
+> After each new local (dev) installation please run the `npm run husky:install` script. This should be automatic by default, but since this repo is used as a package, we can't use the `prepare` npm script for husky.
+
 Husky is set up to run the linter and check code formatting before each commit.
 These checks however can also be run using the `npm run lint` and `npm run format:check` commands for the entire repository.
