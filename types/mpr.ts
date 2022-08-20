@@ -36,8 +36,3 @@ export interface ChangeProfileRequest {
   abbreviation: string | null
   profileNumber: number | null
 }
-
-export interface ChangeProfileResponse {
-  profileName: string
-  profileNumber: number
-}
