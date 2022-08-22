@@ -1,1 +1,1 @@
-export * from './login-code-regex'
+export * from './regex'
