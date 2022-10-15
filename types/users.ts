@@ -46,4 +46,7 @@ export interface UserSettings {
   shortcutIconBaseUrl: string | null
   birthdaysUrl: string | null
   koreanUrl: string | null
+  stravaClientId: string | null
+  stravaClientSecret: string | null
+  stravaRedirectUri: string | null
 }
