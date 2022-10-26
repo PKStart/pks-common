@@ -13,3 +13,7 @@ export interface Cycling extends BaseEntity {
   monthlyGoal: number
   chores: CyclingChore[]
 }
+
+export type SetWeeklyGoalRequest = Pick<Cycling, 'weeklyGoal'>
+export type SetMonthlyGoalRequest = Pick<Cycling, 'monthlyGoal'>
+export type CyclingChoreRequest = Omit<CyclingChore, 'id'>
