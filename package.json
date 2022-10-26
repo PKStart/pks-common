@@ -1,6 +1,6 @@
 {
   "name": "pks-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common code for PKStart project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
